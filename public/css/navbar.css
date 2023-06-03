@@ -1,0 +1,55 @@
+.navbar-nav {
+    float: right;
+}
+nav .container {
+  padding-bottom: 0px;
+}
+.nav-item {
+  font-size: large;
+}
+.navbar {
+  height: 80px; /* sesuaikan ukuran navbar */
+  padding: 10px 0; /* tambahkan padding atas dan bawah */
+}
+.navbar-brand img{
+width: 300px;
+height: 168px;
+margin-left: -100px;
+}
+.btn-login {
+    text-decoration: none;
+    color: white;
+}
+
+.button-1 {
+  background-color: #198754;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: white;
+  color: black;
+}

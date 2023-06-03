@@ -1,0 +1,334 @@
+body {
+    background-color: white;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.carousel-item {
+    height: 420px;
+}
+
+.carousel-control-prev,
+.carousel-control-next  {
+    background-color: green;
+    top: calc(50% - 25px);
+    opacity: .8;
+}
+
+.carousel-control-prev {
+    left: 0px;
+}
+
+.carousel-control-next {
+    right: 0px;
+}
+
+.specialoffers {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 700px;
+}
+/* Product Slider */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content {
+    margin: 0 20px 24px;
+}
+.content h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.section::-webkit-scrollbar{
+    height: 4px;
+    border-radius: 10px;
+    background: transparent;
+}
+.section::-webkit-scrollbar-thumb{
+    background: grey;
+}
+.section{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding-left: 2px;
+}
+.section .box{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin: auto;
+    border-radius: 10px;
+    width: 230px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section .box img{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.section .box h3{
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left: 15px;
+    letter-spacing: normal;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.section .box h5{
+    font-size: 14px;
+    padding-top: 10px;
+    color: black;
+    padding-bottom: 25px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: auto;
+}
+.section .box a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    padding: 5px 80px;
+    background: #198754;
+    border-radius: 5px;
+    transition: all .3s ease;
+    margin-top: auto;
+}
+.section .box a:hover {
+    color: grey;
+    background: #198754;
+}
+/* Pop Up detail product */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    position: relative;
+    width: 1220px;
+    height: 422px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translate(-50%, -50%); /* tambahkan baris ini */
+    top: 50%; /* tambahkan baris ini */
+    left: 50%; /* tambahkan baris ini */
+  }
+  
+  .popup-content h3 {
+    margin-top: 0;
+  }
+  
+  .popup-content p {
+    margin-bottom: 20px;
+  }
+  
+  .popup-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0e0d0d;
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .popup-content .close:hover {
+    background-color: #d32f2f;
+  }
+  
+  .popup-content .close:focus {
+    outline: none;
+  }
+  
+  .productimage_popup {
+  position: absolute;
+  width: 449px;
+  height: 334px;
+  left: 0px;
+  top: 21px;
+  }
+  .namaproduct_popup {
+  position: absolute;
+  width: 720px;
+  height: 47px;
+  left: 471px;
+  top: 21px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+  color: #000000;
+  }
+  .hargaproduct_popup{
+  position: absolute;
+  width: 215px;
+  height: 42px;
+  left: 471px;
+  top: 79px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+  }
+  .size {
+    position: absolute;
+    width: 143px;
+    height: 28px;
+    left: 471px;
+    top: 160px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    
+  }
+  .stock {
+    position: absolute;
+    width: 114px;
+    height: 28px;
+    left: 636px;
+    top: 160px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  .cart_popup {
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    width: 192px;
+    height: 68px;
+    left: 470px;
+    top: 265px;
+    background: #06a533;
+    border-radius: 25px;
+  }
+  .buynow_popup {
+    position: absolute;
+    width: 192px;
+    height: 68px;
+    left: 999px;
+    top: 287px; 
+    background: #06a533;
+    border-radius: 25px;
+    color: #F5FDF8;
+    font-weight: bold;
+  }
+  
+/* Konten Product Arrival */
+.flex-container {
+    display: flex;
+    background-color: grey;
+    margin-top: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 8px 4px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container h1 {
+    font-family: 'Gloock', serif;
+    color: black;
+  }
+  .flex-container p{
+    margin-top: 50px;
+  }
+  .flex-container a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: larger;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    margin-left: 230px;
+  }
+  .flex-container a:hover {
+    color: black;
+  }
+  .flex-container a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .flex-container a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .signup {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,48 @@
+.btn-bayar {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background: red;
+    padding: 0.5rem 0;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: 500;
+    transition: all 500ms;
+}
+
+.btn-bayar:hover{
+    color: #000000;
+    border: 1px solid #000000;
+    background: #e9c009;
+    transition: all 500ms;
+}
+
+.card-title {
+width: 720px;
+height: 47px;
+left: 471px;
+top: 21px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 47px;
+color: #000000;
+}
+.card-text {
+    position: absolute;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 24px;
+    display: flex;
+    color: #000000;
+}
+.gambar {
+width: 449px;
+height: 334px;
+left: 0px;
+top: 21px;
+}

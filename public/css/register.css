@@ -1,0 +1,79 @@
+.card-body{
+    box-sizing: border-box;
+    width: 528px;
+    height: 580px;
+    left: 229px;
+    top: 214px;
+    background-color: #198754;
+    mix-blend-mode: normal;
+    margin-left: 120px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.judul-register{
+    color: #FFFFFF;
+    width: 137px;
+    height: 47px;
+    left: 424px;
+    top: 247px;
+    padding-left: 4.5cm;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+
+.row label{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.submit-register{
+    height: 45px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: #c70d0d;
+    border-radius: 20px;
+    border-style: none;
+    margin-top: 25px;
+    margin-left: 17px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Judson;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.login-here{
+    width: 337px;
+    height: 23px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.do-you{
+    width: 337px;
+    height: 23px;
+    padding-top: 10px;
+    margin-left: 95px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}

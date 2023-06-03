@@ -1,0 +1,50 @@
+.card1 {
+    box-sizing: border-box;
+    width: 528px;
+    height: 446px;
+    margin-top: 50px;
+    background-color: #198754;
+    mix-blend-mode: normal;
+    margin-left: 120px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.judul{
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+}
+
+label {
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+}
+
+.submit-login{
+    height: 45px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #c70d0d;
+    border-style: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Judson;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.btn-save {
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #c70d0d;
+    border-style: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Judson;
+    font-size: 18px;
+    color: #FFFFFF;
+}
