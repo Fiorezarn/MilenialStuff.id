@@ -38,7 +38,7 @@
         <div class="footer-right">
             <p class="footer-about">
                 <span>About</span>
-                Di Channel ini kita akan berbagi barbagai Tutorial design, Pemograman dan lain-lain. Silahkan subscribe untuk kemajuan channel ini, jangan lupa, like dan comments. agar channel ini semakin berkembang
+                Selamat datang di Milenialstuff, website terpercaya untuk memenuhi kebutuhan sneakers, apparel, dan accesories terkini. Kami menawarkan koleksi terbaru dan terbaik yang cocok untuk jiwa muda dan gaya hidup milenial.
             </p>
 
             <div class="footer-media">

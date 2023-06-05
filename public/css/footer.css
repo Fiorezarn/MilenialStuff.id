@@ -135,6 +135,7 @@ footer {
 }
 
 .footer .footer-about {
+    text-align: justify;
     line-height: 20px;
     color: #92999f;
     font-size: 13px;
