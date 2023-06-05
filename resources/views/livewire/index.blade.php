@@ -14,17 +14,17 @@
             </a>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/carousel-1.webp" class="d-block w-100" alt="jordan">
+                <img src="img/carousel-1.svg" class="d-block w-100" alt="jordan">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel-2.webp" class="d-block w-100" alt="offwhite">
+                <img src="img/carousel-2.svg" class="d-block w-100" alt="offwhite">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel-3.webp" class="d-block w-100" alt="stussy">
+                <img src="img/carousel-3.svg" class="d-block w-100" alt="stussy">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>

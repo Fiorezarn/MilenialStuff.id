@@ -1,7 +1,7 @@
 @section('title', 'Product')
 <div>
     <div class="banner-product">
-        <img class="gambar-banner" src="img/product-content.webp" alt="banner-produk" href="#">
+        <img class="gambar-banner" src="img/product-content.svg" alt="banner-produk" href="#">
     </div>
     <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
@@ -51,7 +51,7 @@
 
     <!-- Pembatas Product Apparel-->
     <div class="pembatas-apparel">
-        <img class="gambar-pembatas" src="img/pembatas-produk.webp" alt="banner-produk" href="#">
+        <img class="gambar-pembatas" src="img/pembatas-produk.svg" alt="banner-produk" href="#">
     </div>
     <div class="apparel">
         <h2 class="container-fluid">Best of Apparel</h2>
@@ -116,7 +116,7 @@
 
         <!-- Pembatas Product Sneakers -->
         <div class="pembatas-sneakers">
-            <img class="gambar-pembatas" src="img/pembatas-produk-2.webp" alt="banner-produk" href="#">
+            <img class="gambar-pembatas" src="img/pembatas-produk-2.svg" alt="banner-produk" href="#">
         </div>
 
         <!-- Product Slider Sneakers For You -->
