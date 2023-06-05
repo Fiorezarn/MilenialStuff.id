@@ -186,15 +186,9 @@ color: #000000;
 
 /* Product Banner */
 .gambar-banner {
-  width: calc(100vw - 64px);
-  height: 86px;
-  border-radius: 8px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 23px;
-  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  margin-top: -28px;
 }
 
 /* Trending Content */
