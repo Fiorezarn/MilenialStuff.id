@@ -39,8 +39,6 @@
                             <select name="jasa" wire:model="jasa" class="form-control">
                                 <option value="">-PILIH JASA PENGIRIMAN-</option>
                                 <option value="jne">JNE</option>
-                                <option value="pos">Pos</option>
-                                <option value="tiki">Tiki</option>
                             </select>
 
                             <br><br>

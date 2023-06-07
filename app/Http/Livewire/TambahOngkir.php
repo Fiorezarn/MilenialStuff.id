@@ -42,9 +42,9 @@ class TambahOngkir extends Component
         //mengambil biaya ongkir
         $rajaOngkir = new RajaOngkir($this->apiKey);
         $cost       = $rajaOngkir->ongkosKirim([
-            'origin'        => 489, //inikota tuban jd harus diganti jakarta
+            'origin'        => 151, //ini id kota jakarta
             'destination'   => $this->kota_id,
-            'weight'        => 1300,
+            'weight'        => 2000,
             'courier'       => $this->jasa
         ])->get();
 
