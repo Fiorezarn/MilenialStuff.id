@@ -37,15 +37,16 @@ class Product extends Component
         //mencari produk
         $product = Item::find($id);
 
-        Order::create(
-            [
-                'user_id' => Auth::user()->id,
-                'total_harga' => $product->harga,
-                'produk_id' => $product->id,
-                'namaproduk' => $product->namaproduk,
-                'status' => 0
-            ]
-        );
+        Order::create([
+            'user_id' => Auth::user()->id,
+            'id' => mt_rand(10000, 99999),
+            'total_harga' => $product->harga,
+            'produk_id' => $product->id,
+            'namaproduk' => $product->namaproduk,
+            'status' => 0
+        ]);
+        
+
         return redirect()->to('cart');
     }
 

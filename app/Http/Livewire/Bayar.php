@@ -61,9 +61,8 @@ class Bayar extends Component
                 $status = \Midtrans\Transaction::status($this->belanja->id);
                 $status = json_decode(json_encode($status), true);
                 //menampilkan status pembayaran
-                $this->va_number            = $status['va_numbers'][0]['va_number'];
                 $this->gross_amount         = $status['gross_amount'];
-                $this->bank                 = $status['va_numbers'][0]['bank'];
+                $this->payment_type         = $status['payment_type'];
                 $this->transaction_status   = $status['transaction_status'];
                 $transaction_time           = $status['transaction_time'];
                 $this->deadline             = date('Y-m-d H:i:s', strtotime('+1 day', strtotime($transaction_time)));

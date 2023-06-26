@@ -8,7 +8,7 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="{{ asset('foto_produk/'.$namaproduk.'.webp') }}" class="gambar" alt="{{ $namaproduk }}" class="img-fluid">
+                    <img src="{{ asset('foto_produk/'.$namaproduk.'.webp') }}" onerror="this.onerror=null; this.src='{{ asset('foto_produk/'.$namaproduk.'.png') }}';" class="gambar" alt="{{ $namaproduk }}" class="img-fluid">
                     </div>
                     <div class="col-md-8">
                         <h5 class="card-title">{{ $namaproduk }}</h5>
@@ -38,14 +38,9 @@
                                 <div class="col">
                                     <table class="table" style="border-top: hidden">
                                         <tr>
-                                            <td>Virtual Account</td>
-                                            <td>:</td>
-                                            <td>{{ $va_number }}</td>
-                                        </tr>
-                                        <tr>
                                             <td>Bank</td>
                                             <td>:</td>
-                                            <td>{{ $bank }}</td>
+                                            <td>{{ $payment_type }}</td>
                                         </tr>
                                         <tr>
                                             <td>Total Harga</td>
